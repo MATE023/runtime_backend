@@ -4,6 +4,10 @@ Uses Fastify and typescript
 # To get started
 
  - Navigate to working directory
+ - Rin command to install dependencies
+ ```
+ npm install
+```
  - Run command to get server started
 ```
  node dist/server.js
