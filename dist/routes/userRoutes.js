@@ -22,9 +22,9 @@ const routeOptions = {
 //place holder
 const getUsers = () => {
     return [
-        { id: 1, username: 'User1', email: 'user1@email.com', password: 'pass1', savedProblems: [] },
-        { id: 1, username: 'User2', email: 'user2@email.com', password: 'pass2', savedProblems: [] },
-        { id: 1, username: 'User3', email: 'user3@email.com', password: 'pass3', savedProblems: [] },
+        { id: 1, username: 'User1', email: 'user1@email.com', password: 'pass1', savedProblems: [], attemptedProblems: [], solvedProblems: [] },
+        { id: 1, username: 'User2', email: 'user2@email.com', password: 'pass2', savedProblems: [], attemptedProblems: [], solvedProblems: [] },
+        { id: 1, username: 'User3', email: 'user3@email.com', password: 'pass3', savedProblems: [], attemptedProblems: [], solvedProblems: [] },
     ];
 };
 const getUsersHandler = (request, reply) => __awaiter(void 0, void 0, void 0, function* () {

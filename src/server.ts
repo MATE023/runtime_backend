@@ -1,9 +1,11 @@
 import fastify from 'fastify'
 import problemRoutes from './routes/problemRoutes'
 import userRoutes from './routes/userRoutes';
+const dbconnector = require('./db')
 
 const server = fastify()
 
+server.register(dbconnector);
 server.register(problemRoutes);
 server.register(userRoutes);
 

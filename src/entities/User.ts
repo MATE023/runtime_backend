@@ -9,3 +9,7 @@ export interface User {
     attemptedProblems: number[];
     solvedProblems: number[]
 }
+
+export interface CreateUserRequest {
+    Body: User;
+  }
